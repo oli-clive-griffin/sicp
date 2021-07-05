@@ -1,4 +1,4 @@
-# Structure and Interpretation of Computer Programs - AKA The Wizard Book
+# Structure and Interpretation of Computer Programs (AKA The Wizard Book)
 
 Documenting my solutions and thoughts as I work through *The Structure and Interpretation of Computer Programs*. 
 

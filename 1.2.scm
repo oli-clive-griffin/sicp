@@ -1,3 +1,5 @@
+#lang sicp
+
 (define (factorial x) 
   (if (= x 1)
       1
@@ -92,7 +94,7 @@
 ;; (A 0 ≈32,750)
 ;; ≈65,000, 2^16
 
-(define (f n ) (A 0 n))
+; (define (f n ) (A 0 n))
 ;; (f 4)
 ;; (A 0 4)
 ;; 8
@@ -240,7 +242,7 @@
                    #f)
                #f)))
        (iota n 1)))
-; (test-pascal 100)
+(test-pascal 100)
 
 (define (count-change amount)
   (cc amount 5))

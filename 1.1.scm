@@ -1,6 +1,7 @@
+#lang sicp
 
 ;; ex1.1
-not doing that that's stupid
+;; not doing that that's stupid
 
 ;; ex1.2
 (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5)))))
@@ -52,9 +53,6 @@ not doing that that's stupid
 
 (display (sqrt 1)) (newline)
 (display (sqrt 9)) (newline)
-
-(define (avg a b)
-  (/ (+ a b) 2))
 
 (define (square-root x)
   (define (new-guess guess)
